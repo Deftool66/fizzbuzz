@@ -13,3 +13,9 @@ module FizzBuzz
     end
   end
 end
+
+def hello
+  outputs.map do |num|
+    num + 2
+  end
+end
